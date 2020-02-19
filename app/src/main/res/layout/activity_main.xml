@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:focusable="true">
+
+    <EditText
+        android:id="@+id/edtInput4"
+        android:layout_width="80dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="32dp"
+        android:digits="FT"
+        android:ems="10"
+        android:hint="@string/t_f"
+        android:inputType="textPersonName"
+        android:maxLength="1"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvF4"
+        app:layout_constraintTop_toBottomOf="@+id/edtInput3" />
+
+    <TextView
+        android:id="@+id/tvF3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/f"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toStartOf="@+id/tvF4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvF2" />
+
+    <TextView
+        android:id="@+id/tvF4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/f"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toStartOf="@+id/edtInput4"
+        app:layout_constraintStart_toEndOf="@+id/tvF3"
+        app:layout_constraintTop_toBottomOf="@+id/tvT4" />
+
+    <EditText
+        android:id="@+id/edtInput3"
+        android:layout_width="80dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="32dp"
+        android:digits="FT"
+        android:ems="10"
+        android:hint="@string/t_f"
+        android:inputType="textPersonName"
+        android:maxLength="1"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvT4"
+        app:layout_constraintTop_toBottomOf="@+id/edtInput2" />
+
+    <TextView
+        android:id="@+id/tvF2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/f"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toStartOf="@+id/tvT4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvT3" />
+
+    <TextView
+        android:id="@+id/tvT4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/t"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toStartOf="@+id/edtInput3"
+        app:layout_constraintStart_toEndOf="@+id/tvF2"
+        app:layout_constraintTop_toBottomOf="@+id/tvF1" />
+
+    <EditText
+        android:id="@+id/edtInput2"
+        android:layout_width="80dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="32dp"
+        android:digits="FT"
+        android:ems="10"
+        android:hint="@string/t_f"
+        android:inputType="textPersonName"
+        android:maxLength="1"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvF1"
+        app:layout_constraintTop_toBottomOf="@+id/edtInput1" />
+
+    <TextView
+        android:id="@+id/tvT3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/t"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toStartOf="@+id/tvF1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvT1" />
+
+    <TextView
+        android:id="@+id/tvF1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/f"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toStartOf="@+id/edtInput2"
+        app:layout_constraintStart_toEndOf="@+id/tvT3"
+        app:layout_constraintTop_toBottomOf="@+id/tvT2" />
+
+    <TextView
+        android:id="@+id/tvT2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/t"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toStartOf="@+id/edtInput1"
+        app:layout_constraintStart_toEndOf="@+id/tvT1"
+        app:layout_constraintTop_toBottomOf="@+id/tvA" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/title"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/a"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/tvB"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
+
+    <TextView
+        android:id="@+id/tvB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/b"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/tvAB"
+        app:layout_constraintStart_toEndOf="@+id/tvA"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
+
+    <TextView
+        android:id="@+id/tvAB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/ab"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvB"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
+
+    <TextView
+        android:id="@+id/tvT1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/t"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toStartOf="@+id/tvT2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvA" />
+
+    <EditText
+        android:id="@+id/edtInput1"
+        android:layout_width="80dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="32dp"
+        android:digits="FT"
+        android:ems="10"
+        android:hint="@string/t_f"
+        android:inputType="textPersonName"
+        android:maxLength="1"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvT2"
+        app:layout_constraintTop_toBottomOf="@+id/tvAB" />
+
+    <Button
+        android:id="@+id/btnCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/check"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvF4" />
+</androidx.constraintlayout.widget.ConstraintLayout>
