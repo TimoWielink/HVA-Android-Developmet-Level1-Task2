@@ -10,7 +10,7 @@
     android:focusable="true">
 
     <EditText
-        android:id="@+id/edtInput4"
+        android:id="@+id/Input4"
         android:layout_width="80dp"
         android:layout_height="47dp"
         android:layout_marginTop="32dp"
@@ -22,7 +22,7 @@
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/tvF4"
-        app:layout_constraintTop_toBottomOf="@+id/edtInput3" />
+        app:layout_constraintTop_toBottomOf="@+id/Input3" />
 
     <TextView
         android:id="@+id/tvF3"
@@ -42,12 +42,12 @@
         android:layout_marginTop="32dp"
         android:text="@string/f"
         android:textSize="36sp"
-        app:layout_constraintEnd_toStartOf="@+id/edtInput4"
+        app:layout_constraintEnd_toStartOf="@+id/Input4"
         app:layout_constraintStart_toEndOf="@+id/tvF3"
         app:layout_constraintTop_toBottomOf="@+id/tvT4" />
 
     <EditText
-        android:id="@+id/edtInput3"
+        android:id="@+id/Input3"
         android:layout_width="80dp"
         android:layout_height="47dp"
         android:layout_marginTop="32dp"
@@ -59,7 +59,7 @@
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/tvT4"
-        app:layout_constraintTop_toBottomOf="@+id/edtInput2" />
+        app:layout_constraintTop_toBottomOf="@+id/Input2" />
 
     <TextView
         android:id="@+id/tvF2"
@@ -79,12 +79,12 @@
         android:layout_marginTop="32dp"
         android:text="@string/t"
         android:textSize="36sp"
-        app:layout_constraintEnd_toStartOf="@+id/edtInput3"
+        app:layout_constraintEnd_toStartOf="@+id/Input3"
         app:layout_constraintStart_toEndOf="@+id/tvF2"
         app:layout_constraintTop_toBottomOf="@+id/tvF1" />
 
     <EditText
-        android:id="@+id/edtInput2"
+        android:id="@+id/Input2"
         android:layout_width="80dp"
         android:layout_height="47dp"
         android:layout_marginTop="32dp"
@@ -96,7 +96,7 @@
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/tvF1"
-        app:layout_constraintTop_toBottomOf="@+id/edtInput1" />
+        app:layout_constraintTop_toBottomOf="@+id/Input1" />
 
     <TextView
         android:id="@+id/tvT3"
@@ -116,7 +116,7 @@
         android:layout_marginTop="32dp"
         android:text="@string/f"
         android:textSize="36sp"
-        app:layout_constraintEnd_toStartOf="@+id/edtInput2"
+        app:layout_constraintEnd_toStartOf="@+id/Input2"
         app:layout_constraintStart_toEndOf="@+id/tvT3"
         app:layout_constraintTop_toBottomOf="@+id/tvT2" />
 
@@ -127,7 +127,7 @@
         android:layout_marginTop="32dp"
         android:text="@string/t"
         android:textSize="36sp"
-        app:layout_constraintEnd_toStartOf="@+id/edtInput1"
+        app:layout_constraintEnd_toStartOf="@+id/Input1"
         app:layout_constraintStart_toEndOf="@+id/tvT1"
         app:layout_constraintTop_toBottomOf="@+id/tvA" />
 
@@ -190,7 +190,7 @@
         app:layout_constraintTop_toBottomOf="@+id/tvA" />
 
     <EditText
-        android:id="@+id/edtInput1"
+        android:id="@+id/Input1"
         android:layout_width="80dp"
         android:layout_height="47dp"
         android:layout_marginTop="32dp"

@@ -13,17 +13,15 @@ class MainActivity : AppCompatActivity() {
         btnCheck.setOnClickListener { onButtonClick() } //onClickListener for our button
     }
 
-    /**
-     * This function is responsible for finding and displaying the amount of correct answers
-     */
+
 
     private fun onButtonClick() {
         var antwoordgoed: Int = 0
 
-        val answer1 = edtInput1.text.toString()
-        val answer2 = edtInput2.text.toString()
-        val answer3 = edtInput3.text.toString()
-        val answer4 = edtInput4.text.toString()
+        val answer1 = Input1.text.toString()
+        val answer2 = Input2.text.toString()
+        val answer3 = Input3.text.toString()
+        val answer4 = Input4.text.toString()
 
         if (answer1 == "T") antwoordgoed++
         if (answer2 == "F") antwoordgoed++
